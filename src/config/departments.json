@@ -1,0 +1,140 @@
+[
+  {
+    "id": "1",
+    "color": "red",
+    "image": {
+      "url": "/assets/images/Banner-home-departamento-1.png",
+      "alt": "Departamento 1"
+    },
+    "route": "department1",
+    "subcategories": [
+      {
+        "item" : "categoria1",
+        "route" : "department1"
+      },
+      {
+        "item" : "categoria2",
+        "route" : "department1"
+      },
+      {
+        "item" : "categoria3",
+        "route" : "department1"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "color": "red",
+    "image": {
+      "url": "/assets/images/Banner-home-departamento-2.png",
+      "alt": "Departamento 2"
+    },
+    "route": "department2",
+    "subcategories": [
+      {
+        "item" : "categoria1",
+        "route" : "department2"
+      },
+      {
+        "item" : "categoria2",
+        "route" : "department2"
+      },
+      {
+        "item" : "categoria3",
+        "route" : "department2"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "color": "red",
+    "image": {
+      "url": "/assets/images/Banner-home-departamento-3.png",
+      "alt": "Departamento 3"
+    },
+    "route": "department3",
+    "subcategories": [
+      {
+        "item" : "categoria1",
+        "route" : "department3"
+      },
+      {
+        "item" : "categoria2",
+        "route" : "department3"
+      },
+      {
+        "item" : "categoria3",
+        "route" : "department3"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "color": "brown",
+    "image": {
+      "url": "/assets/images/Banner-home-departamento-4.png",
+      "alt": "Departamento 4"
+    },
+    "route": "department4",
+    "subcategories": [
+      {
+        "item" : "categoria1",
+        "route" : "department4"
+      },
+      {
+        "item" : "categoria2",
+        "route" : "department4"
+      },
+      {
+        "item" : "categoria3",
+        "route" : "department4"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "color": "red",
+    "image": {
+      "url": "/assets/images/Banner-home-departamento-5.png",
+      "alt": "Departamento 5"
+    },
+    "route": "department5",
+    "subcategories": [
+      {
+        "item" : "categoria1",
+        "route" : "department5"
+      },
+      {
+        "item" : "categoria2",
+        "route" : "department5"
+      },
+      {
+        "item" : "categoria3",
+        "route" : "department5"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "color": "red",
+    "image": {
+      "url": "/assets/images/Banner-home-departamento-6.png",
+      "alt": "Departamento 6"
+    },
+    "route": "department6",
+    "subcategories": [
+      {
+        "item" : "categoria1",
+        "route" : "department6"
+      },
+      {
+        "item" : "categoria2",
+        "route" : "department6"
+      },
+      {
+        "item" : "categoria3",
+        "route" : "department6"
+      }
+    ]
+  }
+]

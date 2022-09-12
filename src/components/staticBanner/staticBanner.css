@@ -1,0 +1,40 @@
+@import url('/src/config/colors.css');
+
+.staticBanner-container {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+}
+.staticBanner-container img {
+    width: 100vw;
+}
+.staticBanner-container-internal {
+    width: 100%;
+    height: 20rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.staticBanner-container-internal p {
+    margin: 20px;
+    color: var(--secondary-color);
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+@media only screen and (min-width: 580px) {
+    .staticBanner-container {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        height: 500px;
+        width: 500px;
+    }
+    
+    .staticBanner-container-internal {
+        width: 500px;
+    }
+}

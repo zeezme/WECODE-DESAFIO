@@ -1,0 +1,158 @@
+@import url("/src/config/colors.css");
+
+.sideMenu-container {
+  position: absolute;
+  transition: 350ms;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 270px;
+  background-color: var(--primary-color);
+  z-index: 50;
+}
+
+.sideMenu-container-active {
+  position: absolute;
+  top: 0;
+  left: -400px;
+  height: 100vmax;
+  width: 270px;
+  z-index: 50;
+  transition: 350ms;
+}
+
+.sideMenu-items-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sideMenu-item {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+.sideMenu-item-active {
+  height: 30px;
+  width: 100%;
+  color: var(--primary-color);
+  background-color: #EEFF49;
+  text-decoration: underline;
+}
+
+.sideMenu-items-container-internal {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0;
+}
+
+.sideMenuText {
+  padding: 0;
+  margin: 0;
+  height: 35px;
+  line-height: 2.5rem;
+}
+
+.sideSubMenu-container {
+  transition: 1s;
+  height: 0;
+  overflow: hidden;
+}
+
+.sideSubMenu-container-active {
+  text-align: center;
+  transition: 1s;
+}
+
+.sideSubMenu-items {
+  display: flex;
+  text-decoration: none;
+  color: var(--primary-color);
+  background-color: #EEFF49;
+  width: 270px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 0 5px 0;
+  cursor: pointer;
+}
+
+.sideSubMenu-items:hover {
+  background-color: #c4d341;
+
+}
+.sideSubMenu-items-text {
+  text-align: center;
+}
+
+.sideMenu-close-button {
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  z-index: 100;
+  border-width: 0;
+  border-radius: 5px;
+  border-style: solid ;
+  border-color: var(--primary-color);
+  background-color: #878787;
+  color: var(--primary-color);
+  text-align: center;
+  line-height: 1.2rem;
+  padding: 0;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.sideMenu-close-button-active {
+  display: none;
+}
+
+.user-info {
+  display: flex;
+  height: 200px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.sideMenu-avatar {
+  
+  height: 5rem;
+  width: 5rem;
+  top: 65px;
+  left: 15px;
+  border-radius: 8px;
+  background-color: #878787;
+  margin: 20px;
+}
+
+.sideMenu-avatar-internal {
+  height: 5rem;
+  width: 5rem;
+  background-color: transparent;
+  top: 8vh;
+  left: 15px;
+  border-style: solid;
+  border-radius: 8px;
+  z-index: 505;
+  border-color: #EEFF49;
+  border-width: 1px;
+  transform: rotate(-15deg);
+}
+
+.sideMenu-user-greeting {
+  color: var(--secondary-color);
+}
+
+.sideMenu-user-name {
+  color:#EEFF49;
+}

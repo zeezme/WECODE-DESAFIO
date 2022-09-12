@@ -1,0 +1,41 @@
+@import url('/src/config/colors.css');
+
+.departments-container {
+    
+    margin: 40px 0 100px 0;
+    height: 70vh;
+    width: 100vw;
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+.departments-button {
+    width: 10rem;
+    height: 10rem;
+    margin: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#department-button-title {
+    position: absolute;
+    font-style: none;
+    color: var(--secondary-color);
+    
+}
+@media only screen and (min-width: 580px) {
+    .departments-container {
+
+        height: auto;
+        margin: 40px;
+
+        
+    }
+}

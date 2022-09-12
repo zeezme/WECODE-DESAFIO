@@ -1,0 +1,205 @@
+@import url("/src/config/colors.css");
+
+.footer-container {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    width: 100vw;
+}
+
+.footer-logo {
+    height: 8rem;
+    background-image: url("/public/assets/svg/icon-footer-logotype.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 200px;
+    margin: 0 0 0 20px;
+}
+
+.footer-newsletter {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+#footer-newsletter-title {
+    font-size: 20px;
+    text-decoration: underline;
+    text-underline-position: under;
+    margin: 0;
+}
+
+.footer-newsletter-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#footer-newsletter-form-input {
+    width: 245px;
+    height: 40px;
+    border: none;
+    padding: 0;
+}
+
+#footer-newsletter-form-submit {
+    width: 90px;
+    height: 40px;
+    background-color: #eeff49;
+    border: none;
+    background-image: url("/public/assets/svg/icon-footer-mail.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+    cursor: pointer;
+}
+
+.footer-social {
+    margin: 50px 10px 10px 10px;
+}
+
+#footer-social-title {
+    font-size: 20px;
+    text-decoration: underline;
+    text-underline-position: under;
+    margin: 0;
+}
+.footer-social-images {
+    margin: 22px 0 58px 0;
+    display: flex;
+}
+.footer-social-image1 {
+    height: 24px;
+    width: 24px;
+    background-image: url("/public/assets/svg/icon-footer-instagram.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin: 0 10px 0 0;
+}
+.footer-social-image2 {
+    height: 24px;
+    width: 24px;
+    background-image: url("/public/assets/svg/icon-footer-twitter.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin: 0 10px 0 10px;
+}
+.footer-social-image3 {
+    height: 24px;
+    width: 24px;
+    background-image: url("/public/assets/svg/icon-footer-facebook.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin: 0 10px 0 10px;
+}
+.footer-menu-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 100vw;
+    font-size: 18px;
+    margin: 20px 0 20px 0;
+}
+
+.footer-menu-button-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-menu-button {
+    border: none;
+    width: 95vw;
+    text-align: start;
+    font-size: 18px;
+    background-color: transparent;
+    color: var(--secondary-color);
+    margin: 10px 0 10px 0;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.footer-menu-subitems {
+    margin: 5px 0 5px 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.footer-menu-subitems-active {
+    display: none;
+}
+.footer-certificates {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    height: 119px;
+}
+.footer-certificates p {
+    padding: 0;
+    margin: 0 0 0;
+}
+.footer-certificates-image {
+    height: 68px;
+    width: 200px;
+    background-image: url("/public/assets/svg/icon-footer-selo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.footer-rights-logo {
+    height: 4rem;
+    background-image: url("/public/assets/svg/icon-footer-logotype.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 96px;
+    margin: 0;
+}
+.footer-rights p {
+    padding: 0;
+    margin: 0 10px 10px 10px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.footer-rights-vtex {
+    height: 3rem;
+    background-image: url("/public/assets/svg/icon-footer-vtexbywecode.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px;
+    margin: 0;
+    background-color: #142032;
+}
+
+@media only screen and (min-width: 580px) {
+    .footer-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100vw;
+        height: 280px;
+    }
+    .footer-newsletter-form {
+        justify-content: center;
+    }
+
+    .footer-newsletter-form {
+        justify-content: center;
+    }
+    .footer-menu-button {
+        width: 10rem;
+    }
+    .footer-menu-container {
+        width: auto;
+    } 
+    .footer-certificates {
+        background-color: var(--primary-color);
+    }
+}

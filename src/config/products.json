@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "product": {
+      "url": "/assets/images/Imagem-home-produto-1.png",
+      "title": "Copo de Mocaccino",
+      "size": "Médio - 550ml",
+      "price1": "R$ 12",
+      "price2": "R$ 9,50",
+      "lançamento": "Lançamento"
+    },
+    "route": "route"
+  },
+  {
+    "id": "2",
+    "product": {
+      "url": "/assets/images/Imagem-home-produto-2.png",
+      "title": "Copo de Mocaccino",
+      "size": "Médio - 550ml",
+      "price1": "R$ 12",
+      "price2": "R$ 9,50",
+      "lançamento": ""
+    },
+    "route": "route"
+  },
+  {
+    "id": "3",
+    "product": {
+      "url": "/assets/images/Imagem-home-produto-3.png",
+      "title": "Copo de Mocaccino",
+      "size": "Médio - 550ml",
+      "price1": "R$ 12",
+      "price2": "R$ 9,50",
+      "lançamento": ""
+    },
+    "route": "route"
+  }
+]

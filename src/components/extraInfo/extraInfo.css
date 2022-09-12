@@ -1,0 +1,28 @@
+.extraInfo-container {
+    background-color: #F8F8F8;
+    height: 120px;
+    display: flex;
+}
+
+.extrainfo-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.extraInfo-item{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+.extraInfo-item p {
+    font-size: 15px;
+    margin: 0 10px 0 10px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}

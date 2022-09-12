@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "image": {
+      "url": "/assets/images/Banner-home-principal-1.png",
+      "alt": "Sobre nós"
+    },
+    "route": "aboutus"
+  },
+  {
+    "id": "2",
+    "image": {
+      "url": "/assets/images/Banner-home-principal-2.png",
+      "alt": "Veja mais"
+    },
+    "route": "seemore"
+  },
+  {
+    "id": "3",
+    "image": {
+      "url": "/assets/images/Banner-home-principal-3.png",
+      "alt": "Nosso grupo"
+    },
+    "route": "ourgroup"
+  }
+]

@@ -1,0 +1,62 @@
+@import '../../../config/colors.css';
+
+.header-container {
+    width: 100vw;
+    height: 64px;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    position: sticky;
+    z-index: 56;
+}
+
+.header-container-left {
+    height: 64px;
+    width: 20vw;
+    background-image: url('/public/assets/svg/icon-header-menu.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    background-color: transparent;
+    border-style: none;
+}
+.header-container-midle {
+    height: 64px;
+    width: 40vw;
+    background-image: url('/public/assets/svg/logo-header-wecode.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 8rem;
+    cursor: pointer;
+}
+.header-container-right {
+    height: 64px;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header-container-right-icon-search {
+    height: 64px;
+    width: 64px;
+    background-color: transparent;
+    border-style: none;
+    background-image: url('/public/assets/svg/icon-header-search.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+#header-container-right-icon-cart {
+    padding-right: 2rem;
+    height: 64px;
+    width: 64px;
+    background-color: transparent;
+    border-style: none;
+    background-image: url('/public/assets/svg/icon-header-carrinho.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}

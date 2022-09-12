@@ -1,0 +1,84 @@
+@import url('/src/config/colors.css');
+.bestSellers-container {
+    
+    margin: 30px;
+    
+}
+
+.bestSellers-container p {
+    text-align: left;
+    margin: 0 0 15px 15px;
+}
+
+.bestSellers-swiper {
+    margin: 0 0 0 8px;
+    justify-content: flex-start;   
+}
+
+.bestSellers-img {
+    width: 17rem;
+}
+
+.bestSellers-product-info{
+    width: 274px; 
+    height: 25rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bestSellers-product-info-top {
+    width: 100%;
+    height: 9vh;
+    color: var(--secondary-color);
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.bestSellers-product-info-top-left p {
+    margin: 10px;
+}
+
+.bestSellers-product-info-top-right p {
+    margin: 10px;
+}
+
+
+
+.bestSellers-product-info-bottom {
+    width: 100%;
+    height: 9vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bestSellers-product-info-bottom-left {
+    text-align: center;
+    margin: 10px;
+
+}
+
+.bestSellers-product-info-bottom-left-text {
+    color: var(--primary-color);
+    margin: 10px;
+    font-weight: 600;
+    background-color: #eeff49;
+    
+}
+.bestSellers-product-info-bottom-right {
+    margin: 10px;
+}
+
+.bestSellers-product-info-bottom-right-buttom {
+    background-image: url('/public/assets/svg/icon-home-carddeproduto-addtocart.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: none;
+    margin: 10px;
+}

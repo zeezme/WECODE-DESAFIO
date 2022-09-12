@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Sobre Nós",
+    "items": [
+      {
+        "title": "Quem somos nós",
+        "route": "Route"
+      },
+      {
+        "title": "Nosso grupo",
+        "route": "Route"
+      }
+    ]
+  },
+  {
+    "title": "Minha Conta",
+    "items": [
+      {
+        "title": "Meu perfil",
+        "route": "Route"
+      },
+      {
+        "title": "Meus pedidos",
+        "route": "Route"
+      }
+    ]
+  },
+  {
+    "title": "Políticas",
+    "items": [
+      {
+        "title": "Política de trocas e devolução",
+        "route": "Route"
+      },
+      {
+        "title": "Política de privacidade",
+        "route": "Route"
+      },
+      {
+        "title": "Termos de Uso",
+        "route": "Route"
+      }
+    ]
+  },
+  {
+    "title": "Contato",
+    "items": [
+      {
+        "title": "Tel.: (54)3028-9452 Rua Plácido de Castro, 1063 - Sala 403 - Exposição, Caxias do Sul - RS, 95084-370.",
+        "route": "Route"
+      }
+    ]
+  }
+]
