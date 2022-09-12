@@ -19,7 +19,6 @@
 <ul>
   <li> Bootstrap </li>
   <li> SASS </li>
-  <li> SwiperJS </li>
 </ul>
 
 <h1> Screenshots </h1>
