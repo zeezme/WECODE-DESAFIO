@@ -17,8 +17,8 @@
       "url": "/assets/images/Imagem-home-produto-2.png",
       "title": "Copo de Mocaccino",
       "size": "Médio - 550ml",
-      "price1": "R$ 12",
-      "price2": "R$ 9,50",
+      "price1": "R$ 9",
+      "price2": "R$ 7,50",
       "lançamento": ""
     },
     "route": "route"
@@ -29,8 +29,8 @@
       "url": "/assets/images/Imagem-home-produto-3.png",
       "title": "Copo de Mocaccino",
       "size": "Médio - 550ml",
-      "price1": "R$ 12",
-      "price2": "R$ 9,50",
+      "price1": "R$ 16",
+      "price2": "R$ 12,50",
       "lançamento": ""
     },
     "route": "route"
