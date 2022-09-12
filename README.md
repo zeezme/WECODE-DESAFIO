@@ -4,7 +4,7 @@
 <p> Projeto realizado de acordo com as especificações fornecidas pela <a href='https://www.wecode.digital/' target='_blank'>Wecode</a> contidas neste <a href='https://opaque-friend-39e.notion.site/Fase-2-processo-seletivo-Dev-Front-End-d99468cbeefa4bb9a42886264b960d03' target="_blank"> link</a>. </p>
 <h2> Importante: </h2>
 <ul>
-  <li> As alterações de banners e menus devem ser feitas alterando-se os arquivos .JSON contidos em /src/config </li>
+  <li> As modificações de banners e menus devem ser feitas alterando-se os arquivos .JSON contidos em /src/config </li>
   <li> A aplicação foi feita com o intuito de ser utilizada em telas verticais, no entanto ela também funcionará em displays na horizontal, apenas é necessário atualizar a página caso a resolução seja alterada, isto irá engatilhar uma função que alterará a quantidade de itens exibidos em cada slider. </li>
 </ul>
 
