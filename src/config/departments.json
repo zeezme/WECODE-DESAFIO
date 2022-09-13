@@ -1,7 +1,6 @@
 [
   {
     "id": "1",
-    "color": "red",
     "image": {
       "url": "/assets/images/Banner-home-departamento-1.png",
       "alt": "Departamento 1"
@@ -24,7 +23,6 @@
   },
   {
     "id": "2",
-    "color": "red",
     "image": {
       "url": "/assets/images/Banner-home-departamento-2.png",
       "alt": "Departamento 2"
@@ -47,7 +45,7 @@
   },
   {
     "id": "3",
-    "color": "red",
+  
     "image": {
       "url": "/assets/images/Banner-home-departamento-3.png",
       "alt": "Departamento 3"
@@ -70,7 +68,6 @@
   },
   {
     "id": "4",
-    "color": "brown",
     "image": {
       "url": "/assets/images/Banner-home-departamento-4.png",
       "alt": "Departamento 4"
@@ -93,7 +90,6 @@
   },
   {
     "id": "5",
-    "color": "red",
     "image": {
       "url": "/assets/images/Banner-home-departamento-5.png",
       "alt": "Departamento 5"
@@ -116,7 +112,6 @@
   },
   {
     "id": "6",
-    "color": "red",
     "image": {
       "url": "/assets/images/Banner-home-departamento-6.png",
       "alt": "Departamento 6"
