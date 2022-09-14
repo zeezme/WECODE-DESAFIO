@@ -1,4 +1,4 @@
-<h1> Desafio Countdown</h1>
+<h1> Desafio Wecode</h1>
 
 
 <p> Projeto realizado de acordo com as especificações fornecidas pela <a href='https://www.wecode.digital/' target='_blank'>Wecode</a> contidas neste <a href='https://opaque-friend-39e.notion.site/Fase-2-processo-seletivo-Dev-Front-End-d99468cbeefa4bb9a42886264b960d03' target="_blank"> link</a>. </p>
